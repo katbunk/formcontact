@@ -1,0 +1,43 @@
+body {
+    text-align: center;
+}
+fieldset {
+    display: inline;
+    width: 700px;
+}
+form div {
+    padding: 10px;
+}
+form label {
+    font-size: 20px;
+}
+.nome {
+    width: 50%;
+    padding: 10px;
+}
+.email {
+    margin: 10 0 20px;
+    width: 50%;
+    padding: 10px;
+}
+.cpf {
+    width: 20%;
+    height: 30px;
+}
+.date {
+    margin: 10 0 20px;
+    width: 15%;
+    padding: 10px;
+}
+.telefone {
+    margin: 10 0 20px;
+    width: 20%;
+    padding: 10px;
+}
+.sexo {
+    width: 3%;
+}
+legend {
+    text-align: left;
+    margin-left: 5%;
+}
