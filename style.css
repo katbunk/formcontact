@@ -1,40 +1,48 @@
-body {
+header {
     text-align: center;
 }
 fieldset {
-    display: inline;
-    width: 700px;
+    display: block;
+    width: 600px;
+    text-align: center;
 }
-form div {
-    padding: 10px;
+legend {
+    text-align: left;
+    margin-left: 4%;
+    align-items: center;
 }
-form label {
-    font-size: 20px;
+divnome {
+    position:relative;
 }
-.nome {
-    width: 50%;
-    padding: 10px;
+divemail {
+    position:relative;
 }
-.email {
-    margin: 10 0 20px;
-    width: 50%;
-    padding: 10px;
+divcpf {
+    position:relative;
+    right: 15%;
 }
-.cpf {
-    width: 20%;
-    height: 30px;
+divnascimento {
+    position:relative;
+    right: 28%;
 }
-.date {
-    margin: 10 0 20px;
-    width: 15%;
-    padding: 10px;
+divsexo {
+    position: relative;
+    right: 16%;
 }
-.telefone {
-    margin: 10 0 20px;
-    width: 20%;
-    padding: 10px;
+divtel {
+    position:relative;
+    right: 17%;
 }
-.sexo {
-    width: 3%;
+divsubmit {
+    position:relative;
 }
-aaa
+divreset{
+    position:relative;
+}
+divformu {
+    position:absolute;
+    top: 10%; left: 30%;
+}
+.input-padrao{
+    width: 60%;
+}
