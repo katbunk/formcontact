@@ -19,17 +19,18 @@
     </style>
 </head>
 <body>
-    <header> 
+    <divformu>
+    <header>
         <p><h1>Formulário de Contato</h1></p>
     </header>
-        <form>
+        <form action="/semana4_get.php" method="GET">
          <fieldset>
           <legend><h2>Dados Pessoais</h2></legend>
 
             <divnome>
                 <br><br>
-                <label for="Nome"> Nome </label>
-                &nbsp;<input type="text" name="nome" class="input-padrao" required placeholder="Nome completo"> <br> <br>
+                <label1 for="Nome"> Nome </label1>
+                <input type="text" name="nome" class="input-padrao" required placeholder="Nome completo"> <br> <br>
             </divnome>
             <divemail>
                 <label for="E-mail"> E-mail </label>
@@ -45,8 +46,8 @@
             </divnascimento>
                 <divsexo>
                     <label for="Sexo"> Sexo: </label>
-                    <input type="radio" name="sexo" class="sexo">Masculino
-                    <input type="radio" name="sexo" class="sexo">Feminino
+                    <input type="radio" name="sexo" class="sexo" value="Masculino">Masculino
+                    <input type="radio" name="sexo" class="sexo" value="Feminino">Feminino
                 </divsexo>
                 <br><br>
             <divtel>
@@ -55,15 +56,15 @@
             </divtel>
             <divsubmit>
                 <label for="Enviar"></label>
-                <input type="submit" class="submit">
+                <input type="submit" class="submit" value="Enviar">
             </divsubmit>
             <divreset>
                 <label for="Cancelar"></label>
-                <input type="reset" class="reset">
+                <input type="reset" class="reset" value="Cancelar">
                 <br><br>
             </divreset>
          </fieldset>
-        </form>            
+            </form>
     </divformu>
 </body>
 </html>
