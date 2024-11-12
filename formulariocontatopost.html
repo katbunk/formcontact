@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu contato</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        header {
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <divformu>
+    <header>
+        <p><h1>Formulário de Contato</h1></p>
+    </header>
+        <form action="/formcontact/semana4_post.php" method="POST">
+         <fieldset>
+          <legend><h2>Dados Pessoais</h2></legend>
+
+            <divnome>
+                <br><br>
+                <label1 for="Nome"> Nome </label1>
+                <input type="text" name="nome" class="input-padrao" required placeholder="Nome completo"> <br> <br>
+            </divnome>
+            <divemail>
+                <label for="E-mail"> E-mail </label>
+                <input type="email" name="email" class="input-padrao" required placeholder="Ex: seuemail@dominio.com"> <br> <br>
+            </divemail>
+            <divcpf>
+                <label for="CPF"> CPF </label>
+                <input type="text" name="cpf" class="cpf" required placeholder="Ex: 99988877766" maxlength="11"> <br> <br>
+            </divcpf>
+            <divnascimento>
+                <label for="Nascimento"> Data de Nascimento </label>
+                <input type="date" name="datanascimento" class="date" required placeholder> <br> <br>
+            </divnascimento>
+                <divsexo>
+                    <label for="Sexo"> Sexo: </label>
+                    <input type="radio" name="sexo" class="sexo" value="Masculino">Masculino
+                    <input type="radio" name="sexo" class="sexo" value="Feminino">Feminino
+                </divsexo>
+                <br><br>
+            <divtel>
+                <label for="Telefone"> Telefone </label>
+                <input type="text" name="telefone" class="telefone" required placeholder="Ex: 99876543210" maxlength="11"> <br> <br>
+            </divtel>
+            <divsubmit>
+                <label for="Enviar"></label>
+                <input type="submit" class="submit" value="Enviar">
+            </divsubmit>
+            <divreset>
+                <label for="Cancelar"></label>
+                <input type="reset" class="reset" value="Cancelar">
+                <br><br>
+            </divreset>
+         </fieldset>
+            </form>
+    </divformu>
+</body>
+</html>
