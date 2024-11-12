@@ -16,6 +16,7 @@ divnome {
 }
 divemail {
     position:relative;
+    right: 2px;
 }
 divcpf {
     position:relative;
